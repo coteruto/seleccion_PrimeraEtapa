@@ -2252,3 +2252,11 @@ Apache server interrupted...
 Apache server shutdown initiated...
 [Thu Nov 16 15:49:00.425496 2017] [mpm_winnt:notice] [pid 13772:tid 576] AH00362: Child: Waiting 30 more seconds for 2 worker threads to finish.
 [Thu Nov 16 15:49:04.835715 2017] [mpm_winnt:notice] [pid 13772:tid 576] AH00364: Child: All worker threads have exited.
+[Thu Nov 16 17:03:11.588027 2017] [ssl:warn] [pid 2516:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 16 17:03:11.654512 2017] [core:warn] [pid 2516:tid 580] AH00098: pid file C:/seleccion_PrimeraEtapa/httpd-2.4.28-o102l-x86-vc14/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 16 17:03:11.763622 2017] [ssl:warn] [pid 2516:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 16 17:03:11.780644 2017] [mpm_winnt:notice] [pid 2516:tid 580] AH00455: Apache/2.4.28 (Win32) OpenSSL/1.0.2l PHP/7.1.10 configured -- resuming normal operations
+[Thu Nov 16 17:03:11.780644 2017] [mpm_winnt:notice] [pid 2516:tid 580] AH00456: Server built: Oct  3 2017 22:38:39
+[Thu Nov 16 17:03:11.780644 2017] [core:notice] [pid 2516:tid 580] AH00094: Command line: 'C:\\seleccion_PrimeraEtapa\\httpd-2.4.28-o102l-x86-vc14\\Apache24\\bin\\httpd.exe -d C:/seleccion_PrimeraEtapa/httpd-2.4.28-o102l-x86-vc14/Apache24'
+[Thu Nov 16 17:03:11.782645 2017] [mpm_winnt:notice] [pid 2516:tid 580] AH00418: Parent: Created child process 6956
+[Thu Nov 16 17:03:12.524476 2017] [ssl:warn] [pid 6956:tid 552] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name

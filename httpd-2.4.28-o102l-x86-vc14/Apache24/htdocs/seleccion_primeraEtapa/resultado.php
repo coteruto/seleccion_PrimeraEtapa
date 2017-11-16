@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Calculadora</title>
+        <title>Resultado</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,25 +23,37 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">
-                            <span><b>Fechas calculadas</b></span>
+                            <span><b>Resultado</b></span>
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="text-center">
-                                        <span><b>Fecha 1: </b></span>
-                                       <span><?php echo $fecha_calculada1; ?></span>
-                                       <br><br>
-                                       <span><b>Fecha 2: </b></span>
-                                       <span><?php echo $fecha_calculada2; ?></span>
-                                       <br><br>
-                                       <span><b>Fecha 3: </b></span>
-                                       <span><?php echo $fecha_calculada3; ?></span>
-                                       <br><br>
-                                       <span><b>Fecha 4: </b></span>
-                                       <span><?php echo $fecha_calculada4; ?></span>
-                                       <br><br>
-                                    </div>
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th scope="col">#</th>
+												<th scope="col">Fecha calculada</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">Fecha 1</th>
+												<td><?php echo date("d-M-Y",strtotime($fecha_calculada1)); ?></td>
+											</tr>
+											<tr>
+												<th scope="row">Fecha 2</th>
+												<td><?php echo date("d-M-Y",strtotime($fecha_calculada2)); ?></td>
+											</tr>
+											<tr>
+												<th scope="row">Fecha 3</th>
+												<td><?php echo date("d-M-Y",strtotime($fecha_calculada3)); ?></td>
+											</tr>
+											<tr>
+												<th scope="row">Fecha 4</th>
+												<td><?php echo date("d-M-Y",strtotime($fecha_calculada4)); ?></td>
+											</tr>
+										</tbody>
+									</table>
                                 </div>
                             </div>
                             <div class="row">
