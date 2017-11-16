@@ -1,0 +1,15 @@
+body{
+    background-image: url('../img/pattern.png');
+}
+
+.container{
+    margin-top: 2%;
+}
+
+.card-header{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(167,201,194);
+}
